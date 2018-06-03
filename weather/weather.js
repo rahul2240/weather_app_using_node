@@ -1,6 +1,7 @@
 const request = require('request');
 const key = require('../keys/keys');
 
+
 var getWeather = (latitude, longitude, callback) => {
 
   request({
